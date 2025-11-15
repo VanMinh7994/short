@@ -263,7 +263,7 @@
 
               $nextTick(() => {
                 $refs.url.select()
-                this.alert = { type: 'success', message: `链接 ${document.execCommand('Copy') ? 'Đã sao chép' : 'Đã tạo'} ` }
+                this.alert = { type: 'success', message: `Liên kết ${document.execCommand('Copy') ? 'đã sao chép' : 'đã tạo'} ` }
               })
             })
             .catch(e => {
